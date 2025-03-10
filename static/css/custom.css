@@ -1,0 +1,34 @@
+.pdfViewer > .page > .textLayer > span::selection {
+  color: transparent;
+}
+.pdfViewer > .page > .textLayer > * {
+  --ls-selection-text-color: transparent;
+  --ls-selection-background-color: #6c7086;
+  --ctp-selection-text-color: transparent;
+  --ctp-selection-background-color: #6c7086;
+}
+.extensions__pdf-hls-ctx-menu {
+  background: #313244;
+  color: #cdd6f4;
+}
+.extensions__pdf-hls-ctx-menu>li.item:hover {
+    background-color: #45475a;
+}
+.extensions__pdf-finder.hls-popup-box {
+  background-color: #313244;
+  color: #cdd6f4; 
+}
+.extensions__pdf-finder.hls-popup-box>.input-inner input {
+  background-color: #313244;
+  color: #cdd6f4; 
+}
+.extensions__pdf-finder.hls-popup-box>.result-inner {
+  color: #cdd6f4; 
+}
+.extensions__pdf-finder.hls-popup-box>.input-inner .ui__button .ti {
+  color: #1e1e2e; 
+  
+}
+html[data-color=none] button.ui__button {
+  background-color: #89b4fa;
+}
